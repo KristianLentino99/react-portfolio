@@ -1,0 +1,15 @@
+@mixin viewport--large {
+    @media only screen and 
+    (min-width: px-to-em(1680px)) {
+    @content;
+  }	}
+  @mixin viewport--medium {
+    @media only screen and 
+    (min-width: px-to-em(1080px)) {
+    @content;
+  }	}
+  @mixin viewport--small {
+    @media only screen and 
+    (min-width: px-to-em(500px)) {
+    @content;
+  }	}
